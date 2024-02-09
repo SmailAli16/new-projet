@@ -1,0 +1,47 @@
+.container{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+  
+}
+body{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+input{
+  border: 1px solid #d9d9d9;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  gap: 40px;
+  border-radius: 8px;
+}
+label{
+  color: var(--Dark-Grey, #333);
+  
+    /* Body S */
+    font-family: Instrument Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 18px */
+}
+.email{
+  position: relative;
+}
+
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
